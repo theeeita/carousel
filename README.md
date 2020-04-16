@@ -8,11 +8,11 @@
 <link rel="stylesheet" href="css/carousel.css">
 <script src="js/carousel.js"></script>
 
-	<div class="carousel-example">
+	<div class="test-carousel-example">
 		<div>1</div>
 		<div>2</div>
 		<div>3</div>
-	</div> <!-- carousel-example -->
+	</div> <!-- test-carousel-example -->
 
 
 <script>
