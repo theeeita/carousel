@@ -16,7 +16,7 @@
 
 
 <script>
-	const exampleCarousel = new Carousel({ root: document.querySelector(".carousel-example") });  // Объект оptions отвечает за параметры работы и отображения карусели (должен обязательно содержать свойство root)
+	const exampleCarousel = new Carousel({ root: document.querySelector(".test-carousel-example") });  // Объект оptions отвечает за параметры работы и отображения карусели (должен обязательно содержать свойство root)
 </script>
 ```
 
