@@ -5,8 +5,9 @@
 #### Создание:
 ```html
 
-<link rel="stylesheet" href="css/carousel.css">
-<script src="js/carousel.js"></script>
+// Необходимые файлы (css подключать в head, js где угодно, главное доб объявления объекта):
+<link rel="stylesheet" href="path_to_css/carousel.css">
+<script src="path_th_js/carousel.js"></script>
 
 	<div class="test-carousel-example">
 		<div>1</div>
