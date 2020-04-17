@@ -7,7 +7,7 @@
 
 // Необходимые файлы (css подключать в head, js где угодно, главное до объявления объекта):
 <link rel="stylesheet" href="path_to_css/carousel.css">
-<script src="path_th_js/carousel.js"></script>
+<script src="path_to_js/carousel.js"></script>
 
 	<div class="test-carousel-example">
 		<div>1</div>
