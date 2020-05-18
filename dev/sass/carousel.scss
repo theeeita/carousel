@@ -1,0 +1,56 @@
+// ==================================================================
+// Стили, необходимые для работы объекта Carousel.
+// Тут минимум визуализации, в основном параметры необходимы
+// для работоспособности слайдера. Все остальное отдельно.
+// ------------------------------------------------------------------
+// Эти классы/стили можно и переопределить, но лучше в конструкторе
+// указать свои классы менять стили уже через них.
+// ===================================================================
+.carousel {
+	overflow: hidden;
+	&-container {
+		& > *, & button {
+			box-sizing: border-box;
+			padding: 0;
+			margin: 0;
+		}
+	} // .carousel-container
+
+	&-items-list {
+		position: relative;
+		left: 0;
+		top: 0;
+		display: flex;
+		flex-direction: row;
+		width: 99999px;
+		height: 100%;
+	} // .carousel-items-list (блок, содержащий слайды (генерируется в js), который будет двигаться при действиях пользователя)
+
+	&-nav {
+		& > div {
+			display: flex;
+			justify-content: center;
+			padding: 5px 10px;
+		}
+		.carousel-buttons {
+			button {
+				margin: 0 5px;
+				padding: 5px 10px;
+				cursor: pointer;
+			}
+		}
+		.carousel-dots {
+			.carousel-dot-item {
+				width: 10px;
+				height: 10px;
+				margin: 0 5px;
+				border-radius: 50%;
+				background: #000;
+				cursor: pointer;
+				&.active, &:hover {
+					background: #2DA5CD;
+				}
+			}
+		}
+	} // .carousel-nav
+}
